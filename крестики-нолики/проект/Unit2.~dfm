@@ -1,0 +1,112 @@
+object Form2: TForm2
+  Left = 497
+  Top = 361
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = #1042#1099#1073#1086#1088' '#1085#1072#1089#1090#1088#1086#1077#1082
+  ClientHeight = 110
+  ClientWidth = 316
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 6
+    Width = 220
+    Height = 16
+    Caption = #1042#1099#1073#1077#1088#1080#1090#1077' '#1089#1083#1086#1078#1085#1086#1089#1090#1100' '#1082#1086#1084#1087#1100#1102#1090#1077#1088#1072
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 62
+    Width = 182
+    Height = 16
+    Caption = #1042#1099#1073#1077#1088#1080#1090#1077' '#1082#1090#1086' '#1093#1086#1076#1080#1090' '#1087#1077#1088#1074#1099#1081
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 221
+    Top = 84
+    Width = 6
+    Height = 13
+    Caption = '0'
+    Visible = False
+  end
+  object Bevel1: TBevel
+    Left = 232
+    Top = 0
+    Width = 3
+    Height = 111
+  end
+  object CheckBox1: TCheckBox
+    Left = 10
+    Top = 32
+    Width = 69
+    Height = 19
+    Caption = #1051#1077#1075#1082#1086
+    TabOrder = 0
+    OnMouseDown = CheckBox1MouseDown
+  end
+  object CheckBox2: TCheckBox
+    Left = 154
+    Top = 32
+    Width = 69
+    Height = 19
+    Caption = #1057#1083#1086#1078#1085#1086
+    TabOrder = 1
+    OnMouseDown = CheckBox2MouseDown
+  end
+  object Button1: TButton
+    Left = 240
+    Top = 42
+    Width = 75
+    Height = 29
+    Caption = #1053#1072#1095#1072#1090#1100'!'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object CheckBox3: TCheckBox
+    Left = 18
+    Top = 86
+    Width = 83
+    Height = 15
+    Caption = #1048#1075#1088#1086#1082
+    TabOrder = 3
+    OnMouseDown = CheckBox3MouseDown
+  end
+  object CheckBox4: TCheckBox
+    Left = 120
+    Top = 86
+    Width = 83
+    Height = 15
+    Caption = #1050#1086#1084#1087#1100#1102#1090#1077#1088
+    TabOrder = 4
+    OnMouseDown = CheckBox4MouseDown
+  end
+  object CheckBox5: TCheckBox
+    Left = 82
+    Top = 32
+    Width = 69
+    Height = 19
+    Caption = #1057#1088#1077#1076#1085#1077
+    TabOrder = 5
+    OnMouseDown = CheckBox5MouseDown
+  end
+end
